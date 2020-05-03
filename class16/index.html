@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    // var a = 300;
+    // function abc(){
+    //     console.log("This is abc");
+    // }
+    // abc();
+
+    // let xyz = () =>{
+    //     console.log("This is xyz");
+    // }
+    // xyz();
+
+//     let abc = () =>{
+//         console.log("this is abc ");
+//     }
+//     abc();
+
+//     function xyz(){
+//         var a = 200;
+//         console.log(a);
+//         this.b = 400;
+//     }
+// xyz(); //invoking
+
+// var obj = new xyz();
+
+// console.log(obj.b);
+// console.log(obj.a);
+
+
+class xyz{
+    a= 20000;
+}
+var obj = new xyz();
+console.log(obj.a);
+
+//object creation require class but noy in JS
+</script>
+
+</head>
+<body>
+    <div class="box" >
+
+        <input type="text" id="inputData">
+        <input type="button" value="comment" onclick="comment()">
+    </div>
+
+    <div id="comments">
+
+    </div>
+    
+</body>
+<script>
+    function comment(){
+        var data = document.getElementById("inputData").value
+
+        var para = document.createElement("p");
+        var node = document.createTextNode(data);
+        para.appendChild(node);
+
+        var elem = document.getElementById("comments")
+        elem.appendChild(para);
+
+        document.getElementById("inputData").value = '';
+    }
+</script>
+</html>

@@ -1,0 +1,45 @@
+/*Sumanth Framework*/
+.d-flex{
+    display: flex;
+}
+.d-row{
+    flex-direction: row;
+}
+.d-col{
+    flex-direction: column;
+}
+.col{
+    flex: 1;
+}
+.col-auto{
+    flex: auto;
+}
+justify-conntent-space-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-space-evenly{
+    justify-content: space-evenly;
+}
+.justify-space-around{
+    justify-content: space-around;
+}
+.red{
+    background-color: red;
+}
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+
+/*end of Framework*/

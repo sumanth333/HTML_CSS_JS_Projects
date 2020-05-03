@@ -1,0 +1,15 @@
+/* top header css */
+.menu{
+    height: 80px;
+    background-color: beige;
+}
+.logo{
+    height: 80px;
+    background-color: blue;
+}
+.sidemenu{
+    height: 80px;
+    background-color: pink;
+}
+
+/* top header css end */

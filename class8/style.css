@@ -1,0 +1,19 @@
+:root{
+    --size1: 500px;
+    --success: green;
+    --danger: red;
+
+}
+.box{
+    width: var(--size1);
+    height: 300px;
+    background-color: green;
+    border: 10px solid yellow;
+    padding-left: 50px;
+    box-sizing: border-box;
+
+}
+.box2{
+    width: var(--size1);
+    height: 300px;
+    background-color: red;

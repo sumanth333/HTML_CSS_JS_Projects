@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1200px;
+    height: 100vh;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    background-color: azure;
+    flex-basis: 30%;
+    height: 100px;
+}
+.menu{
+    background-color: pink;
+    flex-basis: 30%;
+
+}
+.sidemenu{
+background-color: blanchedalmond;
+flex-basis: 30%;
+}
+.banner{
+    margin-top: 5px;
+    height:200px;
+    background-color: azure;
+}
+.covid{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.covid-left{
+    height: 300px;
+    flex-basis: 65%;
+    background-color: bisque;
+}
+.covid-right {
+    background-color: gray;
+    flex-basis: 35%;
+}
